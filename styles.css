@@ -326,7 +326,7 @@ img {
 
 /*==================Ofertas=====================*/
 .ofertas_bg {
-  background: url("/assets/img/corredor.jpg") no-repeat center/cover;
+  background: url("./assets/img/corredor.jpg") no-repeat center/cover;
   text-align: center;
   margin-bottom: var(--mb-4);
 }
@@ -356,9 +356,10 @@ img {
   justify-content: center;
   background-color: rgb(17, 128, 26);
   overflow: hidden;
+  height: 20rem;
 }
 .novidade_img {
-  width: 80%;
+  width: 100%;
 }
 .novidade_box:hover .novidade_link {
   bottom: 0;
@@ -506,12 +507,12 @@ img {
   .ofertas_data {
     padding: 5rem 0;
   }
-  .novidades_container {
+  .novidade_container {
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: var(--mb-4);
   }
   .novidade_img {
-    width: 100px;
+    width: 100%;
   }
   .sponsors_container {
     grid-template-columns: repeat(4, 1fr);
