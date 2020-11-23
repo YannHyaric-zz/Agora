@@ -460,7 +460,7 @@ img {
     display: none;
   }
   .home_container {
-    height: 65vh;
+    height: 70vh;
   }
   .home_data {
     padding: 0;
@@ -468,7 +468,6 @@ img {
     align-self: center;
   }
   .home_title {
-    margin-top: 2rem;
     padding-top: 1rem;
     line-height: 0.8;
     letter-spacing: 1.5rem;
