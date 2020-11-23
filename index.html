@@ -15,46 +15,15 @@
     <title>Agora</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="../assets/img/logo.jpg" class="nav_logo"></a>
-        </div>
-        <div class="nav_menu" id="nav-menu">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="#home" class="nav_link active">Home</a>
-            </li>
-            <li class="nav_item">
-              <a href="#produtos" class="nav_link">Produtos</a>
-            </li>
-            <li class="nav_item">
-              <a href="#novidade" class="nav_link">Novo</a>
-            </li>
-            <li class="nav_item">
-              <a href="#sub" class="nav_link">Contato</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <i class="bx bx-cart nav_cart"></i>
-          <i class="bx bx-menu nav_toggle" id="nav-toggle"></i>
-        </div>
-      </nav>
-    </header>
+    <header class="header"></header>
     <main class="main">
       <!--HOME-->
       <section class="home" id="home">
-        <div class="home_container bd-grid">
+        <div class="home_container">
           <div class="home_data">
-            <h1 class="home_title">
-              Pensou limpeza?<br />
-              <span>Pensou </span>
-              <span id="agora">AGORA</span>.
-            </h1>
-            <a href="produtos" class="button">Compre</a>
+            <h1 class="home_title">Pensou limpeza? Pensou</h1>
           </div>
-          <img src="./assets/img/CleanBoy.jpg" alt="" class="home_img" />
+          <img src="./assets/img/logo.jpg" alt="Agora" class="home_img" />
         </div>
       </section>
       <!--Coleção-->
@@ -63,13 +32,12 @@
           <div class="collection_box">
             <img
               src="./assets/img/lixeiras.jpg"
-              alt="Coleção"
+              alt="Residencial"
               class="collection_img"
             />
             <div class="collection_data">
               <h2 class="collection_title">
-                <span class="collection_subtitle">Lixeiras</span><br />Tamanhos
-                e Cores variados
+                <span class="collection_subtitle">Residencial</span><br />
               </h2>
               <a href="#" class="collection_view">Veja a coleção</a>
             </div>
@@ -77,13 +45,38 @@
           <div class="collection_box">
             <div class="collection_data">
               <h2 class="collection_title">
-                <span class="collection_subtitle">Piscina</span
-                ><br />Equipamento e produtos
+                <span class="collection_subtitle">Piscina</span>
               </h2>
               <a href="#" class="collection_view">Veja a coleção</a>
             </div>
             <img
               src="./assets/img/piscina.jpg"
+              alt="Coleção"
+              class="collection_img"
+            />
+          </div>
+          <div class="collection_box">
+            <img
+              src="./assets/img/automotiva.jpg"
+              alt="Coleção"
+              class="collection_img"
+            />
+            <div class="collection_data">
+              <h2 class="collection_title">
+                <span class="collection_subtitle">Automotivo</span>
+              </h2>
+              <a href="#" class="collection_view">Veja a coleção</a>
+            </div>
+          </div>
+          <div class="collection_box">
+            <div class="collection_data">
+              <h2 class="collection_title">
+                <span class="collection_subtitle">Industrial</span>
+              </h2>
+              <a href="#" class="collection_view">Veja a coleção</a>
+            </div>
+            <img
+              src="./assets/img/p6.jpg"
               alt="Coleção"
               class="collection_img"
             />
@@ -228,40 +221,7 @@
           <div class="ofertas_data">
             <h2 class="ofertas_title">Ofertas</h2>
             <p class="ofertas_description">Ofertas da BlackFriday</p>
-            <a href="#" class="button">Compre Agora</a>
-          </div>
-        </div>
-
-        <div class="novidade_container bd-grid">
-          <div class="novidade_box">
-            <img src="./assets/img/p1.jpg" alt="produto" class="novidade_img" />
-            <div class="novidade_link">
-              <a href="#" class="button">Ver Produto</a>
-            </div>
-          </div>
-          <div class="novidade_box">
-            <img src="./assets/img/p8.jpg" alt="" class="novidade_img" />
-            <div class="novidade_link">
-              <a href="#" class="button">Ver Produto</a>
-            </div>
-          </div>
-          <div class="novidade_box">
-            <img src="./assets/img/p6.jpg" alt="" class="novidade_img" />
-            <div class="novidade_link">
-              <a href="#" class="button">Ver Produto</a>
-            </div>
-          </div>
-          <div class="novidade_box">
-            <img src="./assets/img/p7.jpg" alt="" class="novidade_img" />
-            <div class="novidade_link">
-              <a href="#" class="button">Ver Produto</a>
-            </div>
-          </div>
-          <div class="novidade_box">
-            <img src="./assets/img/p9.jpg" alt="" class="novidade_img" />
-            <div class="novidade_link">
-              <a href="#" class="button">Ver Produto</a>
-            </div>
+            <a href="#" class="button">Ver ofertas</a>
           </div>
         </div>
       </section>
@@ -300,31 +260,7 @@
       </section>
     </main>
     <footer class="footer section">
-      <div class="footer_container bd-grid">
-        <div class="footer_box">
-          <img src="./assets/img/logo.jpg" alt="" />
-          <a href="#">
-            <img src="./assets/img/GPlay.jpg" alt="" class="footer_store" />
-            <img src="./assets/img/AStore.jpg" alt="" class="footer_store" />
-          </a>
-        </div>
-        <div class="footer_box">
-          <h3 class="footer_title">Explore</h3>
-          <ul>
-            <li>
-              <a href="#" class="footer_link">Home</a>
-            </li>
-            <li>
-              <a href="#" class="footer_link">Produtos</a>
-            </li>
-            <li>
-              <a href="#" class="footer_link">Novidade</a>
-            </li>
-            <li>
-              <a href="#" class="footer_link">Contato</a>
-            </li>
-          </ul>
-        </div>
+      <div class="footer_container">
         <div class="footer_box">
           <h3 class="footer_title">Contato</h3>
           <a href="#" class="footer_social">
